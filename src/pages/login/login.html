@@ -1,0 +1,22 @@
+<ion-header class="demo-header">
+    <img src="assets/icon/ic_keyboard_arrow_left_black_24px.svg" alt="" (click)="goBack()">
+    <p>Login</p>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+
+        <ion-item>
+            <ion-label fixed>Username</ion-label>
+            <ion-input type="text" value=""></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label fixed>Password</ion-label>
+            <ion-input type="password"></ion-input>
+        </ion-item>
+
+    </ion-list>
+    <button ion-button full (click)="login()">Login</button>
+    <p (click)="goSmsLogin()" style="text-align: center">SMS Login</p>
+</ion-content>

@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Contact
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list class="demo-ion-list" (click)="goMyPraise()">
+    <ion-item>
+      Settings
+    </ion-item>
+  </ion-list>
+  <ion-list class="demo-ion-list" (click)="goIonic2()">
+    <ion-item>
+      No Need for Login
+    </ion-item>
+  </ion-list>
+  <ion-list class="demo-ion-list" (click)="logout()" *ngIf="hasUuid">
+    <ion-item>
+      Logout
+    </ion-item>
+  </ion-list>
+</ion-content>
