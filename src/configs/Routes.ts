@@ -59,13 +59,13 @@ export const Routes = {
         params: null,
         options: null,
         done: null,
-        tokens: ['token','uuid'],
-        redirect: {
-            name: 'Login',
-            params: null,
-            options: null,
-            done: null
-        },
+        // tokens: ['token','uuid'],
+        // redirect: {
+        //     name: 'Login',
+        //     params: null,
+        //     options: null,
+        //     done: null
+        // },
         url: '/myPraise',
         title: '我的点赞'
     },

@@ -1,0 +1,75 @@
+.popover-style {
+  ion-backdrop {
+    opacity: 0.5!important;
+  }
+  .popover-content {
+    bottom:0;
+    left: 20%!important;
+    width:100%;
+    max-height: 100%!important;
+    top: 44px!important;
+    border-radius: 0!important;
+    background-color: #eeeeee;
+  }
+  .popover-arrow {
+    display: none!important;
+  }
+}
+
+.mypraise-style-one {
+  padding:30px;
+  background-color: #ffffff;
+    div {
+      height:40px;
+      line-height: 40px;
+      margin: 15px 0;
+      .input-box {
+        border: 1px solid #eeeeee;
+        padding: 0!important;
+        width:160px;
+        height: 40px;
+        border-radius: 5px;
+      }
+      span {
+        font-size: 15px;
+      }
+    }
+}
+
+.mypraise-style-two {
+  margin-top: 10px;
+  div {
+    margin: 0!important;
+  }
+  .item {
+    span {
+      font-size: 14px;
+      color: #959595;
+      display: inline-block;
+      &:nth-child(1) {
+        width: 100px;
+      }
+      &:nth-child(2) {
+        width: 70px;
+      }
+    }
+  }
+}
+
+.mypraise-confirm {
+  padding:30px;
+  background-color: #ffffff;
+  margin-top: 10px;
+  width: 80%;
+  .confirm-button {
+    text-align: center;
+    margin-top: 30px;
+    span {
+      padding: 10px 15px;
+      border: 1px solid #959595;
+      border-radius: 5px;
+      display: inline-block;
+      width: 45%;
+    }
+  }
+}

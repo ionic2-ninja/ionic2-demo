@@ -1,17 +1,71 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content class="ion-content-background">
+  <div class="home-title">
+    <img src="assets/icon/favicon.ico" alt="">
+    <span>中华人民共和国国家发展和改革委员会</span>
+    <span>National Development and Reform Commission</span>
+  </div>
+  <ion-slides class="home-slide">
+    <ion-slide>
+      <h1>Slide 1</h1>
+    </ion-slide>
+    <ion-slide>
+      <h1>Slide 2</h1>
+    </ion-slide>
+    <ion-slide>
+      <h1>Slide 3</h1>
+    </ion-slide>
+  </ion-slides>
+  <div>
+  <div class="home-menu">
+    <div>
+      <img src="assets/icon/favicon.ico" alt="">
+      <span>新闻中心</span>
+    </div>
+    <div>
+      <img src="assets/icon/favicon.ico" alt="">
+      <span>政务服务</span>
+    </div>
+    <div>
+      <img src="assets/icon/favicon.ico" alt="">
+      <span>政策发布</span>
+    </div>
+    <div>
+      <img src="assets/icon/favicon.ico" alt="">
+      <span>经济形势</span>
+    </div>
+  </div>
+  <div class="home-menu">
+    <div (click)="goMyPraise()">
+      <img src="assets/icon/favicon.ico" alt="">
+      <span style="color: red;">文件资源</span>
+    </div>
+    <div (click)="goMemberPage()">
+      <img src="assets/icon/favicon.ico" alt="">
+      <span style="color: red;">服务中心</span>
+    </div>
+    <div>
+      <img src="assets/icon/favicon.ico" alt="">
+      <span>建言献策</span>
+    </div>
+    <div>
+      <img src="assets/icon/favicon.ico" alt="">
+      <span>意见征求</span>
+    </div>
+  </div>
+  </div>
+  <div class="home-news">
+    <div class="home-list">
+      <img src="assets/icon/favicon.ico" alt="">
+      <p>
+      <span>李克强与劳尔.卡斯特罗共同出席签字仪式</span>
+      <span>文章分类 2016-9-27</span>
+      </p>
+    </div>
+    <div class="home-list">
+      <p>
+        <span class="span-item">李克强与劳尔.卡斯特罗共同出席签字仪式</span>
+        <span class="span-item">文章分类 2016-9-27</span>
+      </p>
+    </div>
+  </div>
 </ion-content>

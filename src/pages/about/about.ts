@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import {Router} from 'emiya-ionic2-router';
 import { NavController } from 'ionic-angular';
 
 @Component({
@@ -8,8 +8,12 @@ import { NavController } from 'ionic-angular';
 })
 export class AboutPage {
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController,private router: Router) {
 
+  }
+
+  goBack() {
+    this.router.pop();
   }
 
 }

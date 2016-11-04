@@ -4,7 +4,15 @@
   background-color: #f8f8f8;
   border-bottom: 1px solid #b2b2b2;
   img {
+    height: 40px;
+    &:nth-child(1) {
       height: 40px;
+    }
+    &:nth-child(3) {
+      position: absolute;
+      top:0;
+      right:0;
+    }
     }
   p {
     text-align: center;

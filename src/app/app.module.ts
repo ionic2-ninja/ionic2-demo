@@ -9,6 +9,7 @@ import {AgreementPage} from '../pages/agreement/agreement';
 import {LoginPage} from '../pages/login/login';
 import {MyPraisePage} from '../pages/myPraise/myPraise';
 import {SMSLoginPage} from '../pages/smsLogin/smsLogin';
+import {PopoverPage} from '../pages/myPraise/myPraise';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import {SMSLoginPage} from '../pages/smsLogin/smsLogin';
     AgreementPage,
     LoginPage,
     MyPraisePage,
-    SMSLoginPage
+    SMSLoginPage,
+    PopoverPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -36,7 +38,8 @@ import {SMSLoginPage} from '../pages/smsLogin/smsLogin';
     AgreementPage,
     LoginPage,
     MyPraisePage,
-    SMSLoginPage
+    SMSLoginPage,
+    PopoverPage
   ],
   providers: []
 })

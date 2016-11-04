@@ -1,11 +1,31 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      About
-    </ion-title>
-  </ion-navbar>
+
+<ion-header class="demo-header">
+  <img src="assets/icon/ic_keyboard_arrow_left_black_24px.svg" alt="" (click)="goBack()">
+  <p>会员中心</p>
 </ion-header>
-
-<ion-content padding>
-
+<ion-content>
+<div class="mypraise-style-one" style="padding-bottom: 0">
+  <div>
+    <span style="font-size: 18px">账号</span>
+    <input type="text" class="input-box" style="width:80%">
+  </div>
+  <div>
+    <span style="font-size: 18px">密码</span>
+    <input type="text" class="input-box" placeholder="请输入密码" style="width:80%">
+  </div>
+  <div>
+    <span style="font-size: 18px">范围</span>
+    <input type="text" class="input-box" style="width:80%">
+  </div>
+</div>
+<div class="mypraise-confirm" style="padding-top: 0;width: 100%">
+  <ion-item style="padding-left: 0">
+    <ion-label style="font-size: 18px;color: #000;">日期</ion-label>
+    <ion-datetime displayFormat="YYYY/M/D" [(ngModel)]="myDate" cancelText="取消" doneText="确定" style="padding: 12px 5px"></ion-datetime>
+  </ion-item>
+  <ion-item style="padding-left: 0" class="datetime-two">
+    <ion-label>--</ion-label>
+    <ion-datetime displayFormat="YYYY/M/D" [(ngModel)]="myDate1" cancelText="取消" doneText="确定" style="padding: 12px 5px"></ion-datetime>
+  </ion-item>
+</div>
 </ion-content>

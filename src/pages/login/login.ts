@@ -17,7 +17,7 @@ export class LoginPage{
     }
 
     goBack() {
-        this.router.pop({duration:0});
+        this.router.pop();
     }
 
     login() {
